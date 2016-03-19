@@ -1,0 +1,89 @@
+<ion-view view-title="{{show.artistexpand_value}}">
+    <ion-content>
+        <div class="list card">
+            <div class="wrapper">
+                <div class="item item-image">
+                    <img ng-src="{{show.artist_lastfmimage_large}}" height="230px" width="350px">
+                    <div class="artistinfo">
+                        <h2 class="artistname"> {{show.artistexpand_value}}</h2>
+                        <div class="taggroup">
+                            <a class="infotagsinfopage" ng-style="{'background-color': getTagColor1(show)}">
+                    {{show.lastfm_tag1}}
+                </a>
+                            <a class="infotagsinfopage" ng-style="{'background-color': getTagColor2(show)}">
+                    {{show.lastfm_tag2}}
+                </a>
+                            <a class="infotagsinfopage" ng-if="show.lastfm_tag3" ng-style="{'background-color': getTagColor3(show)}">
+                    {{show.lastfm_tag3}}
+                </a>
+                            <!--     <a class="infotagsinfopage" ng-if="show.lastfm_tag4" ng-style="{'background-color': getTagColor4(show)}" data-fittext data-fittext-max="14">
+                    {{show.lastfm_tag4}}
+                </a> -->
+                        </div>
+                    </div>
+                    <div class="heartbuttons">
+                        <i ng-class="{'ion-ios-heart': thingswithIndexfromService.indexOf(show.id) > -1, 'ion-ios-heart-outline': thingswithIndexfromService.indexOf(show.id) === -1}" ng-click="toggleFavorite(show)"></i>
+                    </div>
+                    <div class="playbuttons ">
+                        <i ng-class="{' icon ios ion-play': show.id !== audioObject.playing, ' icon ios ion-pause': show.id == audioObject.playing  && audioObject.currentTime > 0}" on-touch="togglePlayPause(show)"></i>
+                        <ion-spinner icon="ios" ng-if="show.id == audioObject.playing && audioObject.currentTime === 0"></ion-spinner>
+                    </div>
+                </div>
+                <div class="item tabs tabs-secondary tabs-icon-left">
+                    <a class="tab-item" ng-click="openWebsite(show.facebook_link)">
+                        <i class="icon ion-social-facebook"></i> Facebook
+                    </a>
+                    <a class="tab-item" ng-click="openWebsite(show.instagram_link)">
+                        <i class="icon ion-social-instagram"></i> Instagram
+                    </a>
+                    <a class="tab-item" ng-click="openWebsite(show.twitter_link)">
+                        <i class="icon ion-social-twitter"></i> Twitter
+                    </a>
+                    <a class="tab-item" ng-click="openWebsite(show.website_link)">
+                        <i class="icon ion-link"></i> Website
+                    </a>
+                    <a class="tab-item" ng-click="openWebsite(show.spotify_artist_url)">
+                        <i class="icon fa fa-spotify fa-2x"></i> Spotify
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-divider">
+                Dates Playing
+            </div>
+            <div class="item item-icon-left caldates">
+                <span class="fa-stack fa-1x">
+                 <i class="fa fa-calendar-o fa-stack-2x"></i>
+                 <strong class="fa-stack-1x calendar-text">{{show.unix_perfdate1 | date : 'd'}}</strong>
+                </span> {{show.unix_perfdate1 | date : 'EEEE, MMMM d'}} (Time TBD)
+            </div>
+            <div class="item item-icon-left caldates">
+                <span class="fa-stack fa-1x">
+                 <i class="fa fa-calendar-o fa-stack-2x"></i>
+                 <strong class="fa-stack-1x calendar-text">{{show.unix_perfdate2 | date : 'd'}}</strong>
+                </span> {{show.unix_perfdate2 | date : 'EEEE, MMMM d'}} (Time TBD)
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-divider">
+                Bio
+            </div>
+            <div class="item item-text-wrap">
+                <p>{{show.lastfm_bio}} ...<a href="{{show.lastfm_biolink}}" target="_blank">read more at Last.fm</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-divider">
+                Powered By
+            </div>
+            <div class="item item-icon-left caldates">
+                <span>LastFm</span>
+            </div>
+            <div class="item item-icon-left caldates">
+                <span>Spotify</span
+                </div>
+            </div>
+          
+    </ion-content>
+</ion-view>

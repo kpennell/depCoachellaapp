@@ -1,0 +1,53 @@
+<ion-view view-title="Coachella Lineup">
+    <div class="bar bar-subheader bar-stable lineupheader item-input-inset" id="filterbar">
+        <div class="row">
+            <div class="col list-header-col filters">
+                <span class="popularity" on-touch="setFilterOption('lastfm_plays')">Popularity <i ng-class="{'ion-chevron-up gold': isSortUp('lastfm_plays'), 'ion-chevron-down gold': isSortDown('lastfm_plays')}"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="alphabetical" on-touch="setFilterOption('artistexpand_value')"> A to Z <i ng-class="{'ion-chevron-up gold': isSortUp('artistexpand_value'), 'ion-chevron-down gold': isSortDown('artistexpand_value')}"></i></span>
+            </div>
+            <div class="col list-header-col">
+                <label class="item-input-wrapper">
+                    <i class="icon ion-search placeholder-icon"></i>
+                    <input type="search" ng-model="searchQuery" placeholder="Filter">
+                    <button ng-if="searchQuery.length" class="input-button button button-icon ion-android-close" on-touch="clearSearch()" on-touch="clearSearch()">
+                    </button>
+                </label>
+            </div>
+        </div>
+    </div>
+    <ion-content class="has-header has-subheader">
+        <ion-list>
+            <div class="list card" collection-repeat="show in shows | filter:searchQuery | orderBy:sortField:reverse">
+                <div class="wrapper">
+                    <div class="item item-image">
+                        <a href="#/app/show-detail/{{show.id}}"> <img ng-src="{{show.artist_image_medium}}" style="background-color:white;" height="150px " width="300px "></a>
+                    </div>
+                    <div class="artistinfo ">
+                        <a class="artistname" href="#/app/show-detail/{{show.id}}" > {{show.artistexpand_value}}</a>
+                        <div class="taggroup">
+                            <a class="tags " ng-style="{'background-color': getTagColor1(show)}" href="#/app/show-detail/{{show.id}} ">
+                                    {{show.lastfm_tag1}}
+                                </a>
+                            <a class="tags " ng-style="{'background-color': getTagColor2(show)}" href="#/app/show-detail/{{show.id}} " >
+                                    {{show.lastfm_tag2}}
+                                </a>
+                        </div>
+                    </div>
+                    </a>
+                    <a class="chevronrightmoreinfo" href="#/app/show-detail/{{show.id}}"><div class="moreinfobutton">
+                        <i class="ion-chevron-right"></i></a>
+                    </div>
+                    <div class="heartbuttons   ">
+                        <i ng-class="{ ' ion-ios-heart': thingswithIndexfromService.indexOf(show.id)> -1, ' circlebackground ion-ios-heart-outline': thingswithIndexfromService.indexOf(show.id) === -1}" on-touch="toggleFavorite(show)"></i>
+                    </div>
+                    <div class="playbuttons ">
+                        <i ng-class="{' icon ios ion-play': show.id !== audioObject.playing, ' icon ios ion-pause': show.id == audioObject.playing  && audioObject.currentTime > 0}" on-touch="togglePlayPause(show)"></i>
+                        <ion-spinner icon="ios" ng-if="show.id == audioObject.playing && audioObject.currentTime === 0"></ion-spinner>
+                    </div>
+                </div>
+
+            </div><!--  list card -->
+           
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,40 @@
+<ion-view view-title="Favorites">
+    <ion-content>
+        <ion-list>
+            <div class="wrapper">
+            <div class="list card" ng-repeat="favorite in favorites">
+            <div class="wrapper">  
+                <div class="item item-image">
+                    <img src="{{favorite.artist_image_large}}" height="150px" width="300px">
+                </div>
+                
+                <div class="artistinfo">
+                <a class="artistname" href="#/app/show-detail/{{favorite.id}}"> {{favorite.artistexpand_value}}</a>
+                <div class="taggroup">
+                <a class="tags" ng-style="{'background-color': getTagColor1(favorite)}">
+                    {{favorite.lastfm_tag1}}
+                </a>
+                <a class="tags" ng-style="{'background-color': getTagColor2(favorite)}">
+                    {{favorite.lastfm_tag2}}
+                </a>
+                </div>
+              
+                </div>
+                
+                <div class="heartbuttons">
+                <i ng-class="{'ion-ios-heart': favoriteswithIndex.indexOf(favorite.id) > -1, 'ion-ios-heart-outline': favoriteswithIndex.indexOf(favorite.id) === -1}" ng-click="toggleFavorite(favorite)"></i> 
+                  
+                </div>
+
+
+                <div class="playbuttons">
+                <i class="icon ios ion-play" ng-show="favorite.id !== audioObject.playing" ng-click="playStream(favorite)"></i>
+                <i class="icon ios ion-pause" ng-show="favorite.id == audioObject.playing" ng-click="pauseStream(favorite)"></i>
+                </div>
+
+            </div>
+            
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

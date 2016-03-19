@@ -1,0 +1,248 @@
+<!--
+
+               <i class="ion-chevron-up"></i>
+
+<div class="filterDropdown">
+
+
+      <span ng-click="setFilterOption('lastfm_plays')">Popularity <i ng-class="{'ion-chevron-up': !reverse, 
+               'ion-chevron-down': reverse}"></i></span>
+        
+
+        
+                <h4 ng-click="setFilterOption('lastfm_plays')">Popularity</h4><i class="ion-chevron-down"></i><i class="ion-chevron-up"></i>
+                <p ng-click="setFilterOption('artistexpand_value')">A to Z</p>
+
+                </div>
+
+
+        <div class="searchbox">
+            <label class="item-input-wrapper">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" ng-model="searchQuery" placeholder="Filter">
+            </label>
+        </div> -->
+
+
+
+<!-- 
+  <i class="icon ios ion-play" ng-show="show.id !== audioObject.playing" ng-click="playStream(show)"></i>
+                        <i class="icon ios ion-pause" ng-show="show.id == audioObject.playing" ng-click="pauseStream(show)"></i>
+
+
+
+   <option selected ng-model="popular">Popularity</option>
+                <option ng-model="alphabetical">A to Z</option>
+
+ <button class="button flat button-icon icon ion-ios-search-strong" ng-click="showFilterBar()">
+        </button>
+
+        <div class="bar bar-subheader">
+  <input type=text ng-model="searchQuery"/>
+</div> 
+-->
+
+
+         <div class="list card">
+            <div class="item item-divider">
+                Top Tracks
+            </div>
+            <a href="#" class="item item-icon-left" ngtogglePlayPause>
+                <!-- <i class="icon ion-ios-play"></i>  {{show.track1_name}} -->
+
+            </a>
+            <a href="#" class="item item-icon-left">
+                <!--<i class="icon ion-ios-play"></i>{{show.track2_name}} -->
+    
+            </a>
+            <a href="#" class="item item-icon-left">
+              <!--  <i class="icon ion-ios-play"></i> {{show.track3_name}} -->
+
+    
+            </a>
+        </div> -->
+
+
+
+        <!--
+
+href="{{show.facebook_link}}" target="_blank"
+
+
+
+
+
+
+
+  "track1_name" : "F**kin' Problems",
+      "track1_preview" : "https://p.scdn.co/mp3-preview/1649b7c26c8bcfa8b252601cf428844cec9a8446",
+      "track2_name" : "Everyday",
+      "track2_preview" : "https://p.scdn.co/mp3-preview/12820a7f6f6bd17cbf59379b4e9ca69e2d82404f",
+      "track3_name" : "L$D",
+      "track3_preview" : "https://p.scdn.co/mp3-preview/acc8c9d799cd91fcb1045ad7ba44663a4f574c80"
+
+
+
+<ion-content class="padding">
+        <div class="screen showdetail">
+            <div class="list card">
+                <div class="wrapper">
+                    <div class="item item-image">
+                        <img src="{{show.artist_image_large}}" height="230px" width="350px">
+                    </div>
+                    
+                    <div class="heartbuttons">
+                        <i ng-class="{'ion-ios-heart': thingswithIndexfromService.indexOf(show.id) > -1, 'ion-ios-heart-outline': thingswithIndexfromService.indexOf(show.id) === -1}" ng-click="toggleFavorite(show)"></i>
+                    </div>
+                    <div class="playbuttons">
+                        <i class="icon ios ion-play" ng-show="show.id !== audioObject.playing" ng-click="playStream(show)"></i>
+                        <i class="icon ios ion-pause" ng-show="show.id == audioObject.playing" ng-click="pauseStream(show)"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item tabs tabs-secondary">
+            <a class="tab-item" class="icon-left" href="{{show.facebook_link}}" target="_blank">
+                <i class="icon ion-social-facebook"></i>
+            </a>
+            <a class="tab-item" href="{{show.website_link}}" target="_blank">
+                <i class="icon ion-link"></i>
+            </a>
+            <a class="tab-item" href="{{show.twitter_link}}" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+            <a class="tab-item" href="{{show.instagram_link}}" target="_blank">
+                <i class="icon ion-social-instagram"></i>
+            </a>
+        </div>
+        <div class="item item-body">
+            <p>{{show.lastfm_bio}} ...<a href="{{show.lastfm_biolink}}" target="_blank">read more at Last.fm</a></p>
+        </div>
+    </ion-content>
+
+
+
+
+
+<div class="list card">
+            <div class="item item-avatar">
+                <img src="http://ionicframework.com/img/docs/mcfly.jpg">
+                <h2>Marty McFly</h2>
+                <p>November 05, 1955</p>
+            </div>
+            <div class="item item-body">
+                <img class="full-image" src="http://ionicframework.com/img/docs/delorean.jpg">
+                <p>
+                    This is a "Facebook" styled Card. The header is created from a Thumbnail List item, the content is from a card-body consisting of an image and paragraph text. The footer consists of tabs, icons aligned left, within the card-footer.
+                </p>
+                <p>
+                    <a href="#" class="subdued">1 Like</a>
+                    <a href="#" class="subdued">5 Comments</a>
+                </p>
+            </div>
+           
+        </div>
+
+
+
+
+
+
+
+
+
+   <div class="card">
+            <div class="item item-divider">
+                I'm a Header in a Card!
+            </div>
+            <div class="item item-text-wrap">
+                This is a basic Card with some text.
+            </div>
+            <div class="item item-divider">
+                I'm a Footer in a Card!
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+      <div class="item item-text-wrap">
+        <h2>{{show.artistexpand_value}}</h2>
+        <br>
+                 <a class="infotags" >
+                    {{show.lastfm_tag1}}
+                </a>
+                <a class="infotags" >
+                    {{show.lastfm_tag2}}
+                </a>
+                 <a class="infotags" >
+                    {{show.lastfm_tag3}}
+                </a>
+                <a class="infotags" >
+                    {{show.lastfm_tag4}}
+                </a>
+      </div>
+
+
+<a class="item item-text-wrap" href="{{show.website_link}}" target="_blank">
+          <p><i class="icon ion-link"></i></p><p> Website</p>
+        </a>
+        <a class="item item-text-wrap" href="{{show.instagram_link}}" target="_blank">
+          <p><i class="icon ion-social-instagram"></i></p><p>  Instagram</p>
+          </a>
+          <a class="item item-text-wrap" href="{{show.facebook_link}}" target="_blank">
+          <p><i class="icon ion-social-facebook"></i></p><p>  Facebook</p>
+          </a>
+          <a class="item item-text-wrap" href="{{show.twitter_link}}" target="_blank">
+          <p><i class="icon ion-social-twitter"></i></p><p>  Twitter</p>
+          </a>
+
+
+"website_link": "http://www.asvpxrocky.com/",
+    "facebook_link": "https://www.facebook.com/asaprocky/",
+    "twitter_link": "https://twitter.com/asvpxrocky",
+    "youtube_link": "https://www.youtube.com/user/LIVELOVEASAPVEVO",
+    "instagram_link": "https://www.instagram.com/asaprocky",
+
+
+
+
+<ion-view view-title="{{show.artistexpand_value}}">
+  <ion-content class="padding">
+   <div class="list card">
+
+  <div class="item item-avatar">
+    <h1>{{show.artistexpand_value}}</h1>
+    <p>{{show.infotags}}</p>
+  </div>
+
+  <div class="item item-body">
+    <img class="full-image" ng-src="{{show.artist_image}}" width="450px" height="450px">
+    <p>
+      Awesome artist bio will go here
+    </p>
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+</div>
+
+  </ion-content>
+</ion-view>
+
+
+
+
+
+ <img ng-src="{{show.artist_image}}" style="width: 64px; height: 64px">
+    <p>
+      {{show.infotags}}
+    </p>
+
+    -->

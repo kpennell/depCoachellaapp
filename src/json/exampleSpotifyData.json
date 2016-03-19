@@ -1,0 +1,744 @@
+{
+  "topAlbums" : [
+    {
+      "id" : 1,
+      "artist" : "Kendrick Lamar",
+      "album" : "To Pimp a Butterfly",
+      "genre" : "Hip Hop",
+      "album_img" : "http://cdn.albumoftheyear.org/album/thumbs/2015/29250-to-pimp-a-butterfly.jpg",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/615968caf1d27b9eed34b9558ee8fb1797df82d3",
+        "https://p.scdn.co/mp3-preview/103ff520bbf6c22d8cccc31803babe72aac53563",
+        "https://p.scdn.co/mp3-preview/da6eacb9c9c5d12a27d46cda3ea258453dc19722",
+        "https://p.scdn.co/mp3-preview/8417722ecda6274e9e74bb62c9813a64e50e3993",
+        "https://p.scdn.co/mp3-preview/65031211e7f4456a7da029041931b91c569de5ee"
+      ],
+      "album_id" : "7ycBtnsMtyVbbwTfJwRjSP"
+    },
+    {
+      "id" : 2,
+      "artist" : "Mbongwana Star",
+      "album" : "From Kinshasa",
+      "genre" : "African",
+      "album_img" : "http://cdn.albumoftheyear.org/album/thumbs/2015/33159-from-kinshasa.jpg",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/b12267269433a6d3b12ec80d93c0f1329598a7a4",
+        "https://p.scdn.co/mp3-preview/9c960b58282b9a58af6f3d815425638b7b1c118f",
+        "https://p.scdn.co/mp3-preview/cc2ef213fdbf3925efdcff32ab545a357f19be5e",
+        "https://p.scdn.co/mp3-preview/92b88d78494b785952df699378168bdb6270bd14",
+        "https://p.scdn.co/mp3-preview/a9580c0df73897f20259a60d4112aa2be99853b1"
+      ],
+      "album_id" : "0kPOl7QSouCaXfzE9LIALm"
+    },
+    {
+      "id" : 3,
+      "artist" : "Sufjan Stevens",
+      "album" : "Carrie & Lowell",
+      "genre" : "Indie Folk",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/ce06eee6ef1491016e5a7ca79402ec8e5405e871",
+        "https://p.scdn.co/mp3-preview/f5e665476d6617919aafb00bd6ef3c9912f037a9",
+        "https://p.scdn.co/mp3-preview/e6f0675bfeb455be1437c3460bc14f9fc99ef399",
+        "https://p.scdn.co/mp3-preview/08c8850b3557cac62e525d0c5c8a391dee10ed7a",
+        "https://p.scdn.co/mp3-preview/7f812befb1b02bb6c3d707160aa6ef87b14fa600"
+      ],
+      "album_id" : "0U8DeqqKDgIhIiWOdqiQXE"
+    },
+    {
+      "id" : 4,
+      "artist" : "Sleater-Kinney",
+      "album" : "No Cities to Love",
+      "genre" : "Indie Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/fc668e181d6aae9cc0c2cd3850ee2f03c1a2cb04",
+        "https://p.scdn.co/mp3-preview/ae475e9f1ee3a0c419e24cb7b7c94b305d3f04d9",
+        "https://p.scdn.co/mp3-preview/73539b4e53374eb90904eeec76d60b7a2acea4f4",
+        "https://p.scdn.co/mp3-preview/d5d1e13556eb4fc76052df0eb35a50d5d54270f0",
+        "https://p.scdn.co/mp3-preview/45cda1c118b497bb5fd51beab92737bfdeb0eddc"
+      ],
+      "album_id" : "1l7gMbzE7RRAdYddJSfM5B"
+    },
+    {
+      "id" : 5,
+      "artist" : "Father John Misty",
+      "album" : [
+        "I Love You",
+        "Honeybear"
+      ],
+      "genre" : "Singer-Songwriter",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/b280710490d15852fafd6d1f2c96d6a884b7068e",
+        "https://p.scdn.co/mp3-preview/1f9ea14fa26f55bbf829b7e44b94e3e5ab057e41",
+        "https://p.scdn.co/mp3-preview/e28e1e2c65617bf610fff6008d5756e4a9ab02dd",
+        "https://p.scdn.co/mp3-preview/4cb83a5f4e5a909d6bb0285b79e1107751cbff2d",
+        "https://p.scdn.co/mp3-preview/927776a3a10d1814f1c03c48944d330329c8416b"
+      ],
+      "album_id" : "7buEcyw6fJF3WPgr06BomH"
+    },
+    {
+      "id" : 6,
+      "artist" : "Joanna Newsom",
+      "album" : "Divers",
+      "genre" : "Singer-Songwriter",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
+      ],
+      "album_id" : "None"
+    },
+    {
+      "id" : 7,
+      "artist" : "Julia Holter",
+      "album" : "Have You in My Wilderness",
+      "genre" : "Art Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/c322294812760e82451f3c48040b81d2f6798567",
+        "https://p.scdn.co/mp3-preview/6b3f789428171d8c4b901e186850514e86147f9c",
+        "https://p.scdn.co/mp3-preview/40beb598d7179059a1fb94fbe1211bc2c58c6341",
+        "https://p.scdn.co/mp3-preview/54f1b34fa965c2839654d369d499958a5be96be9",
+        "https://p.scdn.co/mp3-preview/a40daeb95b15ae55c48f7d9666a86e811631d431"
+      ],
+      "album_id" : "1kVTV6AoeMjAOMOJyVfYOl"
+    },
+    {
+      "id" : 8,
+      "artist" : "Vince Staples",
+      "album" : "Summertime '06",
+      "genre" : "Hip Hop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/5f27ca817aa239376531a0ab176024dc9de25a6c",
+        "https://p.scdn.co/mp3-preview/25633ff2a44756d4e08b26da0ce9683524f2f3e9",
+        "https://p.scdn.co/mp3-preview/7dab82f938fc539082146b68e4c3655c23f3e27f",
+        "https://p.scdn.co/mp3-preview/170fc95f4660b7f0e88be36e5ada26aad6444c3e",
+        "https://p.scdn.co/mp3-preview/73e60ba3050c74ed711225e9f464f7e35b752452"
+      ],
+      "album_id" : "59olnuVrXXgrDH4wknpDLC"
+    },
+    {
+      "id" : 9,
+      "artist" : "Courtney Barnett",
+      "album" : [
+        "Sometimes I Sit and Think",
+        "and Sometimes I Just Sit"
+      ],
+      "genre" : "Indie Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/2ddd214874b6913eb2ca473faf2f5a4c518d3aa0",
+        "https://p.scdn.co/mp3-preview/c0de95bac506b167465884170e6a4b101ed480dd",
+        "https://p.scdn.co/mp3-preview/c8370a39cb9e99fd3e62c1b23f687aa1b7c44b7b",
+        "https://p.scdn.co/mp3-preview/a050f94bd8ce4c5c51fd23347d054d640e04b766",
+        "https://p.scdn.co/mp3-preview/365aa759aaa0062a495e84075e7c8ce97d1c56d8"
+      ],
+      "album_id" : "5FpTrIArvT20xUSpGRXGLY"
+    },
+    {
+      "id" : 10,
+      "artist" : "Björk",
+      "album" : "Vulnicura",
+      "genre" : "Art Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/bba5a6af0a448214b6151895a73da57d7337a536",
+        "https://p.scdn.co/mp3-preview/5cda8b7b2e1652430804f3bf88025252be9c8ee5",
+        "https://p.scdn.co/mp3-preview/24043f4f1f3585c8798b403314f81101f5e2cbda",
+        "https://p.scdn.co/mp3-preview/c55510e0acb101c7359057a6f3cbb80671e70399",
+        "https://p.scdn.co/mp3-preview/d0bda118c58bf54dd076b999611d602cce2d21a9"
+      ],
+      "album_id" : "7FNtMOO3btvce2G5paXtsE"
+    },
+    {
+      "id" : 11,
+      "artist" : "Grimes",
+      "album" : "Art Angels",
+      "genre" : "Art Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/3c09b611245536b537024b8b6eb86f318633077b",
+        "https://p.scdn.co/mp3-preview/2fa0d1312c6bc316afe577b2124fa7af52269cf4",
+        "https://p.scdn.co/mp3-preview/5fea4c8a6955b65b4e8adf3ffe94186171fa8e89",
+        "https://p.scdn.co/mp3-preview/a3fb39b674ef3f9eacd15e637ae2dcb4f9f8828f",
+        "https://p.scdn.co/mp3-preview/c32147cec9d9b42bbdf5a4114319611b19ef8dc4"
+      ],
+      "album_id" : "5hB4jVN4ZHpubyiMmW81K1"
+    },
+    {
+      "id" : 12,
+      "artist" : "James McMurtry",
+      "album" : "Complicated Game",
+      "genre" : "Americana",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/753906750a2306ba2f90ed31fdbdb69152805256",
+        "https://p.scdn.co/mp3-preview/d4889f092fe1fd8d532ea570fb7f6f8d204a7039",
+        "https://p.scdn.co/mp3-preview/2b0ea954b6a50f5eebf2ac40dd009ed48c471d58",
+        "https://p.scdn.co/mp3-preview/20f2ac3d4560738bbea0abe28c56f939f8520d90",
+        "https://p.scdn.co/mp3-preview/a3b87339bbbdab606defaed9cc3fc9617797e6a5"
+      ],
+      "album_id" : "0uZF0Y3tD2XLnIfBGn59Ly"
+    },
+    {
+      "id" : 13,
+      "artist" : "Bill Wells & Aidan Moffat",
+      "album" : "The Most Important Place In The World",
+      "genre" : "Folk",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
+      ],
+      "album_id" : "None"
+    },
+    {
+      "id" : 14,
+      "artist" : "Zun Zun Egui",
+      "album" : "Shackles' Gift",
+      "genre" : "Experimental Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/cca2d94e55bbf3ae6f8adbe6a0434b2b972110b6",
+        "https://p.scdn.co/mp3-preview/25c113e33c12df11994659af67064b64c0b1f9e1",
+        "https://p.scdn.co/mp3-preview/bb0cb834eb5ae8576d926b37ab4d89f177b265a9",
+        "https://p.scdn.co/mp3-preview/a3961d6056bebb2f8365984b7487797efe69044e",
+        "https://p.scdn.co/mp3-preview/65434c8d9bb55f357438b074eb806f52b3276d3a"
+      ],
+      "album_id" : "5osO1C5b0DjtGcLuDueI3I"
+    },
+    {
+      "id" : 15,
+      "artist" : "Jamie xx",
+      "album" : "In Colour",
+      "genre" : "UK Bass",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
+      ],
+      "album_id" : "5jBKTppNIUpcrNKbr8jbsQ"
+    },
+    {
+      "id" : 16,
+      "artist" : "Bassekou Kouyate & Ngoni Ba",
+      "album" : "Ba Power",
+      "genre" : "African",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/c2b82a3d84df0e1f807762fd52e1893d91decee3",
+        "https://p.scdn.co/mp3-preview/39a697197c446013668e59013cb557164c21d778",
+        "https://p.scdn.co/mp3-preview/7ed9e82279aa58083ea275a1c445c9c3b1907c56",
+        "https://p.scdn.co/mp3-preview/f01276cfe5924e04c00947f5db7b5cbbd34cca84",
+        "https://p.scdn.co/mp3-preview/7c7a6c8f3a02871de3b0f7f44dd4041a9d724f9c"
+      ],
+      "album_id" : "09L6uPsTTySQQMKk1JBCkw"
+    },
+    {
+      "id" : 17,
+      "artist" : "Jlin",
+      "album" : "Dark Energy",
+      "genre" : "Footwork",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/639c2b5d3f6c271c6cf6e2bba3fb9e40a837761d",
+        "https://p.scdn.co/mp3-preview/3a178c77e4fc4328ae89aac111499fcfa28f7414",
+        "https://p.scdn.co/mp3-preview/2131631f409ef5eb725f5c176297c95feb532754",
+        "https://p.scdn.co/mp3-preview/62d1a3474832e88f649a931b8c6319549cbaa64b",
+        "https://p.scdn.co/mp3-preview/39e6c94ed54d35921d3f9759efa9f8cd4280154b"
+      ],
+      "album_id" : "2yHEmN9QGuFbFpWt21BJtd"
+    },
+    {
+      "id" : 18,
+      "artist" : "Tame Impala",
+      "album" : "Currents",
+      "genre" : "Psychedelic Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/3a68f897a7d387eb6912396987336df8c5633398",
+        "https://p.scdn.co/mp3-preview/00dbf7dcad03c7575af32f198b175356392c106f",
+        "https://p.scdn.co/mp3-preview/020ba7fa9390ba89577d19d845580e9c21dd0f16",
+        "https://p.scdn.co/mp3-preview/65f6a3352527da93f8e468021ed9c47a0282fc9d",
+        "https://p.scdn.co/mp3-preview/4b29c99fd29345aaaa3152429545c0471fc7f3f0"
+      ],
+      "album_id" : "0rxKf57PZvWEoU8v3m5W2q"
+    },
+    {
+      "id" : 19,
+      "artist" : "Napalm Death",
+      "album" : "Apex Predator",
+      "genre" : "Grindcore",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
+      ],
+      "album_id" : "6La6h1cWe760jNVi94S1Tg"
+    },
+    {
+      "id" : 20,
+      "artist" : "Natalie Prass",
+      "album" : "Natalie Prass",
+      "genre" : "Chamber Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/76498c28cea8b4cb986b1961a850507b1ba4f2ae",
+        "https://p.scdn.co/mp3-preview/2ecf9a840a741e0da67c508aa0d65e7564099be1",
+        "https://p.scdn.co/mp3-preview/39225e71655c854f488747d7cff5f8eee19e4b2b",
+        "https://p.scdn.co/mp3-preview/ac0992bc0e15a91c1468e32c2f12cb55891b3e92",
+        "https://p.scdn.co/mp3-preview/900b71fa976efa6712221be02bc03ac7ca518e3f"
+      ],
+      "album_id" : "1rRFEJvwq1Bdutw6q3Nz9e"
+    },
+    {
+      "id" : 21,
+      "artist" : "Hop Along",
+      "album" : "Painted Shut",
+      "genre" : "Indie Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/ec39ffca36ef9922081e5b3dde0f965a5423ea77",
+        "https://p.scdn.co/mp3-preview/bd32770c880993dcd5055a4f2685bde83cf0814d",
+        "https://p.scdn.co/mp3-preview/4e15d30dab362cd9871eb6f6de26062b3308d4f5",
+        "https://p.scdn.co/mp3-preview/84da0809fcd798e44ad8cd82fa9b52f0ea2e3771",
+        "https://p.scdn.co/mp3-preview/f8f13a6ff392dd7aa6790493687832b0c4dce52c"
+      ],
+      "album_id" : "16fimHkQtXptYBytXfHfUs"
+    },
+    {
+      "id" : 22,
+      "artist" : "Drenge",
+      "album" : "Undertow",
+      "genre" : "Alternative Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/4ed01e394d53979e0ac28916e46f247fc951b130",
+        "https://p.scdn.co/mp3-preview/8ada4b581ac7d84bd3419fe6ac62a7afd1cf7c5b",
+        "https://p.scdn.co/mp3-preview/e61aa3b32fd06470aa9ed1bc8b630296da39fabe",
+        "https://p.scdn.co/mp3-preview/1cea64ecaebd2a87db332d0004fff20df272023f",
+        "https://p.scdn.co/mp3-preview/45a42498840a14e0428c0da67d05fc7efc182939"
+      ],
+      "album_id" : "7eyAZD1dlFAJKkxGtofRST"
+    },
+    {
+      "id" : 23,
+      "artist" : "Bop English",
+      "album" : "Constant Bop",
+      "genre" : "Indie Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/7cc808842e75b9fa934243d4bb6693dd3bd20ce5",
+        "https://p.scdn.co/mp3-preview/42444e76afca8d078a4b28ee41f4b91fe8d85ebd",
+        "https://p.scdn.co/mp3-preview/3f4a4fba24fc6be39a85658ddef155a924123d28",
+        "https://p.scdn.co/mp3-preview/bd435fd3a468adeafbaa6b6da26616298d7b8c43",
+        "https://p.scdn.co/mp3-preview/84ce378db1341b0f77b8dbbf1dd6e90054d1adb2"
+      ],
+      "album_id" : "1xhgjAWSaFPIRLPnTNdmR3"
+    },
+    {
+      "id" : 24,
+      "artist" : "Donnie Trumpet & The Social Experiment",
+      "album" : "Surf",
+      "genre" : "Neo-Soul",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/eb57b3c43923c2346451050522a06d683827c0dc",
+        "https://p.scdn.co/mp3-preview/04ea541f37234ed1ae68b32463685c4656c8147f",
+        "https://p.scdn.co/mp3-preview/9286bedb96898471c910b24bbf909c7b36c88f5e",
+        "https://p.scdn.co/mp3-preview/69c321f5914977d1b6cf3cab1a9ae1f35d69f627",
+        "https://p.scdn.co/mp3-preview/813b07b55b19590becd7f64d13efea3212187f4a"
+      ],
+      "album_id" : "3eM1KTKmpqrQOvuvYY42cr"
+    },
+    {
+      "id" : 25,
+      "artist" : "Floating Points",
+      "album" : "Elaenia",
+      "genre" : "Electronic",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/8bc561b5f1cc93e0ee501f048b64b3cd3502335a",
+        "https://p.scdn.co/mp3-preview/3e9684d7116b513d78ecbcb311113d371d5d8bd6",
+        "https://p.scdn.co/mp3-preview/3e26c50237aa577587201ba57de593a86b92fe7d",
+        "https://p.scdn.co/mp3-preview/dc07a66d001139cedb012dfd2214e81871a309c6",
+        "https://p.scdn.co/mp3-preview/8d94506b4ec1e54bc8893c26150d8a5d60cf4fe1"
+      ],
+      "album_id" : "0SDLAAGQmK8DWxkX0s9OGE"
+    },
+    {
+      "id" : 26,
+      "artist" : "Destroyer",
+      "album" : "Poison Season",
+      "genre" : "Chamber Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/album/thumbs/2015/33501-poison-season.jpg",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/d98736797d3f9db82e7d3ec7a2ef296bbb94a47b",
+        "https://p.scdn.co/mp3-preview/004fa8ed1c7bbe0bfea561748e3cebac0c6a0f71",
+        "https://p.scdn.co/mp3-preview/59f960044678cc447c79185e3ce5a477cb4679f3",
+        "https://p.scdn.co/mp3-preview/3f9af095f3ec2be54b425e050c0c5a314b34290e",
+        "https://p.scdn.co/mp3-preview/adb1f6762ca90cf3faa32c7da977579f4d8bc14a"
+      ],
+      "album_id" : "0X32RgsNanozjRrRd2DRLK"
+    },
+    {
+      "id" : 27,
+      "artist" : "Jim O'Rourke",
+      "album" : "Simple Songs",
+      "genre" : "Chamber Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/album/thumbs/2015/30940-simple-songs.jpg",
+      "tracks" : [
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
+      ],
+      "album_id" : "None"
+    },
+    {
+      "id" : 28,
+      "artist" : "Royal Headache",
+      "album" : "High",
+      "genre" : "Garage Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/1971143727786ed116cd8d747ab6cf31beaac335",
+        "https://p.scdn.co/mp3-preview/e88372c0701955b224ed6c1a33cb04e21b17b7a9",
+        "https://p.scdn.co/mp3-preview/fa93d4f6eae68616c20c42abb4df11bd33963aa5",
+        "https://p.scdn.co/mp3-preview/f6af6954fc566328f648daff76a21369e20964c2",
+        "https://p.scdn.co/mp3-preview/492ae4335e98986e2de03d1e4c338b0934cf6351"
+      ],
+      "album_id" : "07eWZFe0Nmq1ctJ9NhKdYa"
+    },
+    {
+      "id" : 29,
+      "artist" : "Hiatus Kaiyote",
+      "album" : "Choose Your Weapon",
+      "genre" : "Alternative R&B",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/0521b4adafc06651283b8be048e07e42c856fa7e",
+        "https://p.scdn.co/mp3-preview/783dc785b1d3943e4532e9662e3206d30a08dd40",
+        "https://p.scdn.co/mp3-preview/56f235778e90c8ae0b69c08045524ff522655e26",
+        "https://p.scdn.co/mp3-preview/bd9c77d2509c7dff59d86d9a79e1d59f301072ab",
+        "https://p.scdn.co/mp3-preview/23ba8462be7929c079ef5952887d721935144c64"
+      ],
+      "album_id" : "3qzmmmRmVBiOuMvrerfW4z"
+    },
+    {
+      "id" : 30,
+      "artist" : "Pusha T",
+      "album" : "King Push",
+      "genre" : "Hip Hop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/020272e7a1917ff0ad5ed81a4ce9f668a51ec4e3",
+        "https://p.scdn.co/mp3-preview/75a93c1ce9a5833626e8db3f5e12bbe10c1052e0",
+        "https://p.scdn.co/mp3-preview/8606d97f4e495486f01b9cc43fef69d6ceba34fb",
+        "https://p.scdn.co/mp3-preview/5700f54fd8130e1841a53df8f2e023767b0444fd",
+        "https://p.scdn.co/mp3-preview/24e641e48a4c8c92416631ce05d10c1f42457f12"
+      ],
+      "album_id" : "46BetpPeWyB9uCl9czZfEW"
+    },
+    {
+      "id" : 31,
+      "artist" : "Titus Andronicus",
+      "album" : "The Most Lamentable Tragedy",
+      "genre" : "Indie Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/d24e49584d366cc211871fe1ae7c91e6f32c59ed",
+        "https://p.scdn.co/mp3-preview/cbe9e3956e85b50f874702d660759b98fe8d8e5e",
+        "https://p.scdn.co/mp3-preview/55788b2def7ef161fb97edef20f39c7e3cb32685",
+        "https://p.scdn.co/mp3-preview/d1554984d89287f4eec3005fe6e882354f8a1e8b",
+        "https://p.scdn.co/mp3-preview/7896fd1c68c93fda412e08fea0e3f6a1d6f73c5d"
+      ],
+      "album_id" : "6tcFu0TqSurn0s4unYDXSO"
+    },
+    {
+      "id" : 32,
+      "artist" : "Allison Moorer",
+      "album" : "Down To Believing",
+      "genre" : "Country",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/4cf3f59376fa6601af79ae30081b10899d7d09d3",
+        "https://p.scdn.co/mp3-preview/6975992aa5fa6d69be0f5236c42359ed754294cc",
+        "https://p.scdn.co/mp3-preview/c2548335bdc7ea4bfaf2e259fc249362241ac824",
+        "https://p.scdn.co/mp3-preview/130fc779a1d53db24e9ebdf64c54ed100b762884",
+        "https://p.scdn.co/mp3-preview/24691f15fdc108a281ab15de8fb08662009ad2c4"
+      ],
+      "album_id" : "2EqMfOOEQzd2ah6r94HZQk"
+    },
+    {
+      "id" : 33,
+      "artist" : "Deerhunter",
+      "album" : "Fading Frontier",
+      "genre" : "Indie Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/8248ee7e682ce27a1f1c764fedd11a5fe61f68f8",
+        "https://p.scdn.co/mp3-preview/9b8147a58a362219a3666eaa79e5e753ac3269c6",
+        "https://p.scdn.co/mp3-preview/e49d71053bad8091e98638deb2fedb544d7f715f",
+        "https://p.scdn.co/mp3-preview/ef0ca20ff48f228f440f6a51fd43d3107466a700",
+        "https://p.scdn.co/mp3-preview/e68cd78466aa3549dbefe16a5fb234191b006e93"
+      ],
+      "album_id" : "0y5XgOUEiJSSIMxC4ALRAC"
+    },
+    {
+      "id" : 34,
+      "artist" : "M.E.S.H.",
+      "album" : "Piteous Gate",
+      "genre" : "IDM",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/8536e8c4f51c60693281496786f214e74a852f78",
+        "https://p.scdn.co/mp3-preview/b8146528707c4f4cbad74ee3b24158725ea631a1",
+        "https://p.scdn.co/mp3-preview/0261dbcb693770639d157e5e54d260f5e3ac8236",
+        "https://p.scdn.co/mp3-preview/1bbdff4d2c5a84fc39682a2d5833640695ddfe07",
+        "https://p.scdn.co/mp3-preview/7fb91433230b17b6eaa134b7639ccbbcbcd8f186"
+      ],
+      "album_id" : "4yIZD28j3UbKH2WyEDUbUH"
+    },
+    {
+      "id" : 35,
+      "artist" : "Protomartyr",
+      "album" : "The Agent Intellect",
+      "genre" : "Post-Punk",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/c0e3ecfbc88653fae6f520c0721c6af223f963fb",
+        "https://p.scdn.co/mp3-preview/8e633adb97d505098134fa6cb14d90d06891a540",
+        "https://p.scdn.co/mp3-preview/b2d3967e16c07ae975ddb0602fbfcd8dcd62f1fd",
+        "https://p.scdn.co/mp3-preview/7d0d367390c26d02b0c53cbea60ab058ba90989a",
+        "https://p.scdn.co/mp3-preview/6ac527b350e64b85bff2102b7d6557454009b16d"
+      ],
+      "album_id" : "3oNSWUAqB7CCTSH1zdlrXO"
+    },
+    {
+      "id" : 36,
+      "artist" : "Deafheaven",
+      "album" : "New Bermuda",
+      "genre" : "Atmospheric Black Metal",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/509e0e5b4f71ce4666ebf82f9cf15e3ac8704b16",
+        "https://p.scdn.co/mp3-preview/e4ee56ea090c6501b8adbe589454e308eaa85a68",
+        "https://p.scdn.co/mp3-preview/e1233073aa83f0db601172b29afe5b099ba7d966",
+        "https://p.scdn.co/mp3-preview/853376d6b586de96b2e50e32581ae388081bc138",
+        "https://p.scdn.co/mp3-preview/ccf87f0fcb909e55561e66a555c701dc2f00cf74"
+      ],
+      "album_id" : "2e4xOasRFhJn4x2MBM5pdu"
+    },
+    {
+      "id" : 37,
+      "artist" : "Dwight Yoakam",
+      "album" : "Second Hand Heart",
+      "genre" : "Country",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/d42ecaf8123e5d40a36339c1c73f03ab488ea0e2",
+        "https://p.scdn.co/mp3-preview/8b19ff0b92250ef1576d7513564aaffc436fbc1b",
+        "https://p.scdn.co/mp3-preview/2da9215e701155237349c5f13b1938fbf300ed49",
+        "https://p.scdn.co/mp3-preview/06cf535c9732c89dcd5761d8d860fb931b30f0a3",
+        "https://p.scdn.co/mp3-preview/504f8b8931a4b7e36226d1c8baee482eba7a3e66"
+      ],
+      "album_id" : "66of4M8c77sJdPUj4dtciI"
+    },
+    {
+      "id" : 38,
+      "artist" : "Haiku Salut",
+      "album" : "Etch and Etch Deep",
+      "genre" : "Art Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/fafb21425558d20b79b50f5cd53743fb1268b38a",
+        "https://p.scdn.co/mp3-preview/ed7adff6aa19b79e60c39eec92b6d2a98a6b7045",
+        "https://p.scdn.co/mp3-preview/6e9a2e13ed1dd8843d754ae2340b10f0f6b7f1f5",
+        "https://p.scdn.co/mp3-preview/e8f0ada3609e54ce62541a8153457e7e4abfaae9",
+        "https://p.scdn.co/mp3-preview/44ee13df4d689351e279d0ec01d422a7e6951d26"
+      ],
+      "album_id" : "5bA107hVgbHcWxdm2ICK1X"
+    },
+    {
+      "id" : 39,
+      "artist" : "Dawn Richard",
+      "album" : "Blackheart",
+      "genre" : "Alternative R&B",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/ade77a4cfebddd9e16cf9be34199786b6f11a813",
+        "https://p.scdn.co/mp3-preview/9eec01a19abc0533854e1d21125fdc98f28f585f",
+        "https://p.scdn.co/mp3-preview/727dd073d292714fcdd416c81fcbd95bebad3f09",
+        "https://p.scdn.co/mp3-preview/e4787013c96ae7be02e23cf8bc29bed14dc985ba",
+        "https://p.scdn.co/mp3-preview/04925795acb2154b4460b7e6b6df19821c5235e5"
+      ],
+      "album_id" : "2IPKoEWJgWuM83zZOq3vkW"
+    },
+    {
+      "id" : 40,
+      "artist" : "Future",
+      "album" : "DS2",
+      "genre" : "Hip Hop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/3c2e84d37f47a1d9e4e2aa806015442c41fce80f",
+        "https://p.scdn.co/mp3-preview/43de20e86c09ef83bac53d829da8327d8111fe30",
+        "https://p.scdn.co/mp3-preview/c1e55fccdd81935c9aecdcf1c7677ed8e87f06aa",
+        "https://p.scdn.co/mp3-preview/31a03d2e30536fe79dd45744027fbbb6226bd399",
+        "https://p.scdn.co/mp3-preview/037fc25633147940ef8119e08e1d519e9a86e8a7"
+      ],
+      "album_id" : "0fUy6IdLHDpGNwavIlhEsl"
+    },
+    {
+      "id" : 41,
+      "artist" : "Kamasi Washington",
+      "album" : "The Epic",
+      "genre" : "Jazz Fusion",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/bc5091f537283f0a795f083caeb41f857f0bbfb1",
+        "https://p.scdn.co/mp3-preview/d006db49eaca3dcfd7aa2827984d3c840c574fc4",
+        "https://p.scdn.co/mp3-preview/a09174f511d5d2c01926ce8abdd2abb7e10ae571",
+        "https://p.scdn.co/mp3-preview/7790ec90a87994fe3f90722fb446942e8a9b7305",
+        "https://p.scdn.co/mp3-preview/2110e7b3dabf49314b5220718cf06ed0762cc9b7"
+      ],
+      "album_id" : "1jTw1oalZ4vF8jmpmILCdh"
+    },
+    {
+      "id" : 42,
+      "artist" : "Viet Cong",
+      "album" : "Viet Cong",
+      "genre" : "Post-Punk",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/337409301219d80ecc13a0534e2f74e593d9da36",
+        "https://p.scdn.co/mp3-preview/6d3aa74810e247993d72426adf705d0c4ed9efe9",
+        "https://p.scdn.co/mp3-preview/e6cfaa6dd850a096a57611948d40193100c96643",
+        "https://p.scdn.co/mp3-preview/819f38b72df0b30b865a6c3dee6f603cf1fa30c3",
+        "https://p.scdn.co/mp3-preview/8bc95fac20cc1fc5b479d89f276ab324e6fd177b"
+      ],
+      "album_id" : "63GwqLuSzZnAQpd1JBQKLT"
+    },
+    {
+      "id" : 43,
+      "artist" : "Ought",
+      "album" : "Sun Coming Down",
+      "genre" : "Post-Punk",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/45ed85090c16c2be1240600e6f181d370f79aef7",
+        "https://p.scdn.co/mp3-preview/a58c0ef0a451d88288cb77553b3898be2d4e285d",
+        "https://p.scdn.co/mp3-preview/83d7e61fcc1ae56ae1f710a40c622768f4bbdc2a",
+        "https://p.scdn.co/mp3-preview/0a596947ad28765227c025f4ce283b9c22b81cfb",
+        "https://p.scdn.co/mp3-preview/ba034ea4d7a21feaa4c3ccac5e4e6fd09a36c6ac"
+      ],
+      "album_id" : "6Il9jwREmViqtjAXbkprVA"
+    },
+    {
+      "id" : 44,
+      "artist" : "Young Fathers",
+      "album" : "White Men Are Black Men Too",
+      "genre" : "Hip Hop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/946fff37ae98de3ef6ede6cbb6992ce69b7413da",
+        "https://p.scdn.co/mp3-preview/d7f6a5fc8009838446db46f57d9bcf90ec430b18",
+        "https://p.scdn.co/mp3-preview/a19325a6f508912e448aa5e5d4bda5cf8e800d38",
+        "https://p.scdn.co/mp3-preview/258ff6760c64df821192af0cab25245ae9223c88",
+        "https://p.scdn.co/mp3-preview/19affb764104cee8afb6ad5ea206d8c4fa2edfc8"
+      ],
+      "album_id" : "3xtwcBeltPMO0I4PnDfV0k"
+    },
+    {
+      "id" : 45,
+      "artist" : "Patty Griffin",
+      "album" : "Servant of Love",
+      "genre" : "Singer-Songwriter",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/fa1b67960b86a08a5c91bac168456177ffd67d30",
+        "https://p.scdn.co/mp3-preview/67eff743ee0ec2e53428edb64dceb7e05bec7f2f",
+        "https://p.scdn.co/mp3-preview/474c21bfe49f2ee8b25417e76b5ac3b02252483d",
+        "https://p.scdn.co/mp3-preview/f18b6028f1fbd5bb763629dd8c0c61ba0864b1a9",
+        "https://p.scdn.co/mp3-preview/9448b9592ceb78952e0168ceb22ea708c4ac05df"
+      ],
+      "album_id" : "5ISnw1aCUfzN5D3EVTQ77e"
+    },
+    {
+      "id" : 46,
+      "artist" : "Evans The Death",
+      "album" : "Expect Delays",
+      "genre" : "Indie Rock",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/b547e74e9e312cf921378e33c62943de08e6095f",
+        "https://p.scdn.co/mp3-preview/171c8632e18b64eb666a4664b1a208608ddb26d4",
+        "https://p.scdn.co/mp3-preview/abdabcf3da7d805ddae74bfe0eff9f5005e6a865",
+        "https://p.scdn.co/mp3-preview/7303d86fc30a25d7ef2d10b982f1b35297782810",
+        "https://p.scdn.co/mp3-preview/662a658b6b79df4e4aba30209db098516141c0fc"
+      ],
+      "album_id" : "0oBksQpGxWYAlVCTi7BXNQ"
+    },
+    {
+      "id" : 47,
+      "artist" : "Petite Noir",
+      "album" : "La Vie Est Belle / Life Is Beautiful",
+      "genre" : "Electropop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/743f46e1974f0950833b3ef9213094774e7501d4",
+        "https://p.scdn.co/mp3-preview/227e62fe78ffd61fd0c621767cea6af9a05fb6b3",
+        "https://p.scdn.co/mp3-preview/7e176e3a3879659564d1ee82e73abbf443866a2e",
+        "https://p.scdn.co/mp3-preview/a77fbffcc0f76e4b7058ac2fe197cb5e394319d2",
+        "https://p.scdn.co/mp3-preview/5baaf76b1fbf94dc3a2c98d49bffc16f30051cd8"
+      ],
+      "album_id" : "5xkGx66FLcCgXB74fzcfWD"
+    },
+    {
+      "id" : 48,
+      "artist" : "Lanterns on the Lake",
+      "album" : "Beings",
+      "genre" : "Dream Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/6d84892475f03d4be4da43b586ec8dc258a996b5",
+        "https://p.scdn.co/mp3-preview/32eacfa04c35518e2883279afa22b91bd7fa948d",
+        "https://p.scdn.co/mp3-preview/3182791ddf23c2d9ede9cf29b834920b486d5a36",
+        "https://p.scdn.co/mp3-preview/4647aecd4400d5d35c75225b112d133cff187571",
+        "https://p.scdn.co/mp3-preview/17cc20b875ee5c305361ee5df2604b8349f8f21b"
+      ],
+      "album_id" : "6JhCpvp4pPFnifRPV1VFj5"
+    },
+    {
+      "id" : 49,
+      "artist" : "Gwenno",
+      "album" : "Y Dydd Olaf",
+      "genre" : "Indie Pop",
+      "album_img" : "http://cdn.albumoftheyear.org/images/white.gif",
+      "tracks" : [
+        "https://p.scdn.co/mp3-preview/f363213046f2f805d35faaaadafa17fa4c5494d0",
+        "https://p.scdn.co/mp3-preview/83b29e5d38b1d49ecd8963c59c4cf3e81e74b1c9",
+        "https://p.scdn.co/mp3-preview/2b03560b45ab6168409863cf91b3a85e19a23a8c",
+        "https://p.scdn.co/mp3-preview/feb2a7da440f87f258b183b3e13cbdcdb90b8feb",
+        "https://p.scdn.co/mp3-preview/4763cc74a70740e51a8e3531b13a1c23fea9c186"
+      ],
+      "album_id" : "0nihOJrrjtYeMo6LasFpG3"
+    }
+  ]}
