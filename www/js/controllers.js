@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('ShowsCtrl', function($scope, $rootScope, Shows, ngAudio, StorageService, PlayerService, $ionicScrollDelegate, BrowserService, $ionicLoading, $cordovaNativeAudio) {
+.controller('ShowsCtrl', function($scope, $rootScope, Shows, ngAudio, StorageService, PlayerService, $ionicScrollDelegate, BrowserService, $ionicLoading, $ionicPopup, $timeout, $localStorage) {
 
         $scope.shows = Shows.all();
 
@@ -32,11 +32,33 @@ angular.module('starter.controllers', [])
 
             }
         }
-            $scope.audio = new Audio();
+
+        $scope.storage = $localStorage;
+        $scope.storage.hasSeenPopup = "false";
+
+
+        $scope.showPopup = function() { // popup to tell people to turn sound on
+            $scope.data = {}
+                // An elaborate, custom popup
+            var myPopup = $ionicPopup.show({
+                template: '<p class="popuptext">Turn Sound On!</p>',
+                cssClass: 'popup'
+
+            });
+            $timeout(function() {
+                myPopup.close();
+            }, 2000);
+            $scope.storage.hasSeenPopup = "true";
+        };
+
         $scope.playStream = function(show) {
             PlayerService.play(show);
 
             $scope.audioObject = audioObject; // this allow for styling the play/pause icons
+
+            if ($scope.storage.hasSeenPopup === "false") {
+                $scope.showPopup();
+            }
         }
 
         $scope.pauseStream = function(show) {
@@ -44,7 +66,6 @@ angular.module('starter.controllers', [])
             $scope.audioObject = audioObject; // this allow for styling the play/pause icons
 
             //console.log($scope.audioObject);
-
         }
 
         $scope.togglePlayPause = function(show) {
@@ -56,7 +77,6 @@ angular.module('starter.controllers', [])
                 $scope.pauseStream(show);
             }
         }
-
 
         // this set of functions creates an hex values based off the tag string
         function hashCode(str) {
@@ -101,22 +121,23 @@ angular.module('starter.controllers', [])
 
         };
 
+        //$rootScope.search = '';
+
 
         $scope.clearSearch = function() {
-            console.log('fired');
-            $scope.searchQuery = '';
+          
+            $scope.search = '';
+
             $ionicScrollDelegate.scrollTop();
-        }
 
-
+        };
 
         // filters at the top
         $scope.sortField = "lastfm_plays";
         $scope.reverse = true;
 
-
         $scope.setFilterOption = function(option) {
-            console.log(option);
+          
 
             if ($scope.sortField === option) {
                 //console.log("$scope.sortField === option")
@@ -129,7 +150,6 @@ angular.module('starter.controllers', [])
                 $ionicScrollDelegate.scrollTop();
             }
 
-
         };
 
         $scope.isSortUp = function(option) {
@@ -141,11 +161,6 @@ angular.module('starter.controllers', [])
         };
 
         $scope.openWebsite = BrowserService.open;
-
-
-
-
-
 
     }) //ShowsCtrl
 
@@ -164,33 +179,21 @@ angular.module('starter.controllers', [])
 
         $scope.playStream = function(show) {
             PlayerService.play(show);
-            console.log(PlayerService);
-
             $scope.audioObject = audioObject; // this allow for styling the play/pause icons
-
-
-
             this.playing = true;
 
         }
 
         $scope.pauseStream = function(show) {
             PlayerService.pause(show);
-
             $scope.audioObject = audioObject; // this allow for styling the play/pause icons
-
-
-
             this.playing = false;
 
         }
 
-
-
         $scope.toggleFavorite = function(favorite) {
 
-            console.log("fired $scope.toggleFavorite");
-
+          
             if ($scope.favoriteswithIndex.indexOf(favorite.id) === -1) {
                 StorageService.add(favorite);
 

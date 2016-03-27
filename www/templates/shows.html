@@ -1,4 +1,4 @@
-<ion-view view-title="Coachella Lineup">
+<ion-view view-title="Sample Coachella '16">
     <div class="bar bar-subheader bar-stable lineupheader item-input-inset" id="filterbar">
         <div class="row">
             <div class="col list-header-col filters">
@@ -6,48 +6,48 @@
                 <span class="alphabetical" on-touch="setFilterOption('artistexpand_value')"> A to Z <i ng-class="{'ion-chevron-up gold': isSortUp('artistexpand_value'), 'ion-chevron-down gold': isSortDown('artistexpand_value')}"></i></span>
             </div>
             <div class="col list-header-col">
-                <label class="item-input-wrapper">
+                <div class="item-input-wrapper">
                     <i class="icon ion-search placeholder-icon"></i>
-                    <input type="search" ng-model="searchQuery" placeholder="Filter">
-                    <button ng-if="searchQuery.length" class="input-button button button-icon ion-android-close" on-touch="clearSearch()" on-touch="clearSearch()">
+                    <input type="search" placeholder="Filter..." ng-model="search">
+                    <button ng-if="search.length" class="input-button button button-icon ion-ios-close" ng-click="clearSearch()">
                     </button>
-                </label>
+                </div>
             </div>
         </div>
     </div>
     <ion-content class="has-header has-subheader">
+        <ion-spinner icon="lines" ng-if="!shows"></ion-spinner>
         <ion-list>
-            <div class="list card" collection-repeat="show in shows | filter:searchQuery | orderBy:sortField:reverse">
+            <div class="list card" collection-repeat="show in shows | filter:search | orderBy:sortField:reverse">
                 <div class="wrapper">
-                    <div class="item item-image">
-                        <a href="#/app/show-detail/{{show.id}}"> <img ng-src="{{show.artist_image_medium}}" style="background-color:white;" height="150px " width="300px "></a>
+                    <div class="item item-image" ui-sref="app.show-detail({showId: show.id})">
+                        <img ng-src="{{show.artist_image_medium}}" style="background-color:white;" height="150px " width="300px ">
                     </div>
-                    <div class="artistinfo ">
-                        <a class="artistname" href="#/app/show-detail/{{show.id}}" > {{show.artistexpand_value}}</a>
+                    <div class="artistinfo">
+                        <a class="artistname" href="#/app/show-detail/{{show.id}}"> {{show.artistexpand_value}}</a>
                         <div class="taggroup">
-                            <a class="tags " ng-style="{'background-color': getTagColor1(show)}" href="#/app/show-detail/{{show.id}} ">
+                            <a class="tags" ng-style="{'background-color': getTagColor1(show)}" href="#/app/show-detail/{{show.id}}">
                                     {{show.lastfm_tag1}}
                                 </a>
-                            <a class="tags " ng-style="{'background-color': getTagColor2(show)}" href="#/app/show-detail/{{show.id}} " >
+                            <a class="tags" ng-style="{'background-color': getTagColor2(show)}" href="#/app/show-detail/{{show.id}}">
                                     {{show.lastfm_tag2}}
                                 </a>
                         </div>
                     </div>
-                    </a>
-                    <a class="chevronrightmoreinfo" href="#/app/show-detail/{{show.id}}"><div class="moreinfobutton">
-                        <i class="ion-chevron-right"></i></a>
+                    <a class="chevronrightmoreinfo" href="#/app/show-detail/{{show.id}}">
+                        <div class="moreinfobutton">
+                            <i class="ion-chevron-right"></i></a>
                     </div>
                     <div class="heartbuttons   ">
                         <i ng-class="{ ' ion-ios-heart': thingswithIndexfromService.indexOf(show.id)> -1, ' circlebackground ion-ios-heart-outline': thingswithIndexfromService.indexOf(show.id) === -1}" on-touch="toggleFavorite(show)"></i>
                     </div>
                     <div class="playbuttons ">
-                        <i ng-class="{' icon ios ion-play': show.id !== audioObject.playing, ' icon ios ion-pause': show.id == audioObject.playing  && audioObject.currentTime > 0}" on-touch="togglePlayPause(show)"></i>
+                        <i ng-class="{' icon ios ion-play': show.id !== audioObject.playing, ' icon ios ion-pause': show.id == audioObject.playing  && audioObject.currentTime > 0}" ng-click="togglePlayPause(show)"></i>
                         <ion-spinner icon="ios" ng-if="show.id == audioObject.playing && audioObject.currentTime === 0"></ion-spinner>
                     </div>
                 </div>
-
-            </div><!--  list card -->
-           
+            </div>
+            <!--  list card -->
         </ion-list>
     </ion-content>
 </ion-view>

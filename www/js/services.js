@@ -1,18 +1,8 @@
 angular.module('starter.services', [])
 
-.factory('Shows', function($http, $ionicLoading, $timeout) {
+.factory('Shows', function($http, $timeout) {
         var shows = [];
-
-        // hiding for development
-
-        // $ionicLoading.show({
-        //     content: 'Loading',
-        //     animation: 'fade-in',
-        //     showBackdrop: true,
-        //     maxWidth: 200,
-        //     showDelay: 0,
-        // });
-
+        
         $http({
             method: 'GET',
             url: 'https://gist.githubusercontent.com/kpennell/1d914658005515a3dbc8/raw/936616cdfb368cd650bb071d154952519a7d4333/coachella_data.json'
@@ -21,10 +11,6 @@ angular.module('starter.services', [])
             data.forEach(function(key, value) {
                 shows.push(key);
             });
-
-            $timeout(function() {
-                $ionicLoading.hide();
-            }, 2500);
 
 
         }, function errorCallback(response) {
@@ -88,44 +74,30 @@ angular.module('starter.services', [])
 
     var _play = function(show) {
         if (typeof audioObject === "undefined") {
-
             audioObject = ngAudio.load(show.track1_preview);
-
-            console.log(audioObject);
-
             audioObject.play();
-
             audioObject.playing = show.id;
-
             return audioObject;
+
         } else if (audioObject.paused) {
             audioObject = ngAudio.load(show.track1_preview);
             audioObject.play();
-
             audioObject.playing = show.id;
-
             return audioObject;
 
         } else {
             audioObject.stop();
             audioObject = ngAudio.load(show.track1_preview);
             audioObject.play();
-
             audioObject.playing = show.id;
-
             return audioObject;
 
         }
-
-
     }
 
     var _pause = function(show) {
-
         audioObject.stop();
-
         audioObject.playing = '';
-
     }
 
     return {
